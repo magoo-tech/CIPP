@@ -187,14 +187,6 @@
         "placeholder": "Enter your Hudu API Key"
       },
       {
-        "_comment": "ATTEMPTING TO CREATE FIELD FOR CloudFlare Tunnel API Key",
-        "type": "input",
-        "fieldtype": "password",
-        "name": "Hudu.CFAPIKey",
-        "label": "Hudu (CloudFlare Tunnel) API Key",
-        "placeholder": "Enter your CloudFlare Tunnel API Key to access Self-Hosted Hudu Instance"
-      },
-      {
         "type": "checkbox",
         "name": "Hudu.Enabled",
         "label": "Enable Integration"
@@ -228,6 +220,27 @@
     "mappingRequired": true,
     "fieldMapping": true,
     "showSyncButton": true
+  },
+  {
+    "name": "CloudFlare Tunnel",
+    "type": "CloudFlare",
+    "cat": "ZTNA",
+    "helpText": "This integration allows you to populate custom asset layouts with Tenant information, monitor device compliance state, document other items and generate relationships inside Hudu.",
+    "SettingOptions": [
+      {
+        "_comment": "ATTEMPTING TO CREATE FIELD FOR CloudFlare Tunnel API Key",
+        "type": "input",
+        "fieldtype": "password",
+        "name": "CloudFlare.APIKey",
+        "label": "CloudFlare Tunnel Service Account Token (for Hudu Integration)",
+        "placeholder": "Enter your CloudFlare Tunnel Service Account Token Key to access Self-Hosted Hudu Instance"
+      },
+      {
+        "type": "checkbox",
+        "name": "CloudFlare.Enabled",
+        "label": "Use SA Token to access Hudu Instance"
+      },
+    ],
   },
   {
     "name": "PasswordPusher",
