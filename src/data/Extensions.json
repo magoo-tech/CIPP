@@ -186,8 +186,8 @@
         "label": "Hudu API Key",
         "placeholder": "Enter your Hudu API Key"
       },
-      /* Attempting to incorporate fields for CloudFlare Tunnel API Key */
       {
+        "_comment": "ATTEMPTING TO CREATE FIELD FOR CloudFlare Tunnel API Key",
         "type": "input",
         "fieldtype": "password",
         "name": "Hudu.CFAPIKey",
