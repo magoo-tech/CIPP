@@ -186,6 +186,14 @@
         "label": "Hudu API Key",
         "placeholder": "Enter your Hudu API Key"
       },
+      /* Attempting to incorporate fields for CloudFlare Tunnel API Key */
+      {
+        "type": "input",
+        "fieldtype": "password",
+        "name": "Hudu.CFAPIKey",
+        "label": "Hudu (CloudFlare Tunnel) API Key",
+        "placeholder": "Enter your CloudFlare Tunnel API Key to access Self-Hosted Hudu Instance"
+      },
       {
         "type": "checkbox",
         "name": "Hudu.Enabled",
