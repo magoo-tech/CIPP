@@ -227,7 +227,6 @@
         "name": "CloudFlareClientID.APIKey",
         "label": "CloudFlare Tunnel Service Account Client ID (for Hudu Integration)",
         "placeholder": "Client ID",
-        "condition": "Hudu.CFEnabled"
       },
       {
         "type": "input",
@@ -235,7 +234,6 @@
         "name": "CloudFlareAPIKey.APIKey",
         "label": "CloudFlare Tunnel Service Account Client Secret (for Hudu Integration)",
         "placeholder": "Client Secret",
-        "condition": "Hudu.CFEnabled"
       }
     ],
     "mappingRequired": true,
