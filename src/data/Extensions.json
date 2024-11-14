@@ -219,21 +219,23 @@
       {
         "type": "checkbox",
         "name": "Hudu.CFEnabled",
-        "label": "I am using a self-hosted Hudu instance behind a CloudFlare ZTNA Tunnel."
+        "label": "CloudFlare Tunnel Credentials"
       },
       {
         "type": "input",
         "fieldtype": "password",
         "name": "CloudFlareClientID.APIKey",
         "label": "CloudFlare Tunnel Service Account Client ID (for Hudu Integration)",
-        "placeholder": "Enter your CloudFlare Tunnel Service Account Client ID"
+        "placeholder": "Client ID",
+        "condition": "Hudu.CFEnabled"
       },
       {
         "type": "input",
         "fieldtype": "password",
         "name": "CloudFlareAPIKey.APIKey",
         "label": "CloudFlare Tunnel Service Account Client Secret (for Hudu Integration)",
-        "placeholder": "Enter your CloudFlare Tunnel Service Account Client Secret"
+        "placeholder": "Client Secret",
+        "condition": "Hudu.CFEnabled"
       }
     ],
     "mappingRequired": true,
