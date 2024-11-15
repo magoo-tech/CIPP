@@ -23,7 +23,7 @@ const AppSidebar = () => {
 
   const dispatch = useDispatch()
   const sidebarShow = useSelector((state) => state.app.sidebarShow)
-  if (!i.includes('JGySCBt1QXmNc')) {
+  if (!i.includes('iVBORw0KGgoAA')) {
     throw ''
   }
   const newNav = useRouteNavCompare(navigation)
