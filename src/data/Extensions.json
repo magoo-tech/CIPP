@@ -456,8 +456,7 @@
         "label": "CloudFlare Tunnel Service Account Client Secret"
       },
       {
-        "_comment": "I have added this switch as a logic check for the Hudu integration script to check against when CIPP first connects to the Hudu Instance via CIPP-API/Modules/CippExtensions/Public
-/Hudu/Connect-HuduAPI.ps1",
+        "_comment": "I have added this switch as a logic check for the Hudu integration script to check against when CIPP first connects to the Hudu Instance via Connect-HuduAPI.ps1",
         "type": "switch",
         "name": "Hudu.CFEnabled",
         "label": " Connect to HUDU through CloudFlare Tunnel with the above Service Account credentials."
